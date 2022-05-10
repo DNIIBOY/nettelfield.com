@@ -63,7 +63,7 @@
 							<article id="contact">
 								<h2 class="major">Kontakt</h2>
 								<p>Du kan enten kontakte mig i nedenstående formular eller på mail: <a href="mailto:daniel@nettelfield.com">daniel@nettelfield.com</a></p>
-								<form method="post" action="#">
+								<form onsubmit="sendEmail();">
 									<div class="field half first">
 										<label for="name">Navn</label>
 										<input type="text" name="name" id="name" />
@@ -348,6 +348,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://smtpjs.com/v3/smtp.js"></script>
 	</body>
+	<script>
+		function sendEmail(){
+			Email.send({
+				Host : "mail.nettelfield.com",
+				Username : "daniel@nettelfield.com",
+				Password : "REDACTED",
+				To : "daniel@nettelfield.com",
+				From : "test@test.com",
+				Subject : "This is the subject",
+				Body : "And this is the body"
+			}).then(message => alert(message));
+		}
+	</script>
 </html>
