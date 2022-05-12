@@ -127,7 +127,9 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<?php echo(isset($_POST['submit'])) ?>
+								<?php if(isset($_POST["submit"])){
+									echo($_POST["message"]);
+								} ?>
 								<ul class="icons">
 									<li><a href="https://twitter.com/DNIIBOY" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.facebook.com/DanielNettelfield" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
