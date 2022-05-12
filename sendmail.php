@@ -1,6 +1,6 @@
 <?php
 
-    mail("daniel@nettelfield.com", $_POST["message"], "hejsa altså", "header dims i guess")
+    mail("daniel@nettelfield.com", "test part 51", $_POST["message"], "header dims i guess")
 /*
     if(isset($_POST['submit'])) {
 
