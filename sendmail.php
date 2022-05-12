@@ -7,7 +7,7 @@
         $name = $_POST['name']; // Hent kundens navn
         $fromEmail = $_POST['email']; // Hent kundens email
         $subject = $_POST['package']; // Hent hvilken pakke de vil have
-        echo($fromEmail);
+        echo($subject);
 
         // $subject2 = "Godkendelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
 
