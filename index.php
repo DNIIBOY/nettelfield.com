@@ -119,7 +119,7 @@
 									</div>
 									<div class="field">
 										<label for="message">Besked</label>
-										<textarea name="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 									<ul class="actions">
 										<button type="submit" name="submit" id="contact-submit" data-submit="...Sending">Submit Now</button>
