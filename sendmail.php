@@ -4,11 +4,11 @@
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
 
         // Hent kundedata
-        $name = $_POST["name"]; // Hent kundens navn
-        $fromEmail = $_POST["email"]; // Hent kundens email
-        $subject = $_POST["package"]; // Hent hvilken pakke de vil have
+        // $name = $_POST["name"]; // Hent kundens navn
+        // $fromEmail = $_POST["email"]; // Hent kundens email
+        // $subject = $_POST["package"]; // Hent hvilken pakke de vil have
 
-        $subject2 = "Bekræftelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
+        // $subject2 = "Bekræftelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
 
         // Email til mig
         // $message = "Navn: " . $name . "\n\n";
