@@ -1,9 +1,8 @@
 <?php
 
-    echo($_POST["name"]);
-    /*
     if(isset($_POST['submit'])) {
         echo("hejsa");
+        /*
 
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
 
@@ -40,7 +39,7 @@
         // } else {
         //     $status = "Broken i guess"
         // }
+        */
 }
-*/
 
 ?>
