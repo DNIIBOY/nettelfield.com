@@ -16,9 +16,9 @@
         . "Besked: " . "\n" . $message;
 
         $confirmMessage = "Hej " . $name  // Lav bekræfelsesbesked
-        . "\nTak for din besked, jeg ser frem til at arbejde med dig.\n Din besked er som følger:\n"
-        . $message . "\nMed venlig hilsen Daniel Nettelfield\nDenne mail kan ikke besvares, hvis du ønsker at kontakte mig,
-        kan du gøre det på " . $mailTo;
+        . "\nTak for din besked, jeg ser frem til at arbejde med dig.\nDin besked er som følger:\n\n"
+        . $message . "\n\nMed venlig hilsen Daniel Nettelfield\nDenne mail kan ikke besvares, hvis du ønsker at kontakte mig, kan du gøre det på "
+        . $mailTo;
 
         // Lav mail emner
         $subject1 = $name . " vil booke " . $package;
