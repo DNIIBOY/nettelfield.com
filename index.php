@@ -128,10 +128,10 @@
 									</ul>
 								</form>
 								<?php
-									if(isset($_POST['submit'])) {
-										echo($_POST['message'];
-										$mailto = "daniel@nettelfield.com";  // Min mail addresse 
-									}
+									echo($_POST['message'];
+									// if(isset($_POST['submit'])) {
+									// 	echo($_POST['message'];
+									// }
 								?>
 								<ul class="icons">
 									<li><a href="https://twitter.com/DNIIBOY" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
