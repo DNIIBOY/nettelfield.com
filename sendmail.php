@@ -1,4 +1,5 @@
 <?php
+    mail("daniel@nettelfield", "test 52", "hejsa mester")
     echo($_POST)
     /*if(isset($_POST['submit'])) {
 
