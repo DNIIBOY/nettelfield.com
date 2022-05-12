@@ -70,7 +70,10 @@
 							<p>Vælg en pakke her, eller <a href = "#contact">kontakt</a> mig,
 								hvis du leder efter noget helt specielt til dit næste event.</p>
 							<div>
-								<h3>Kombipakke 1</h3>
+								<h3 class="collapsible">Kombipakke 1</h3>
+								<div class="content">
+                                    <h1>homie</h1>
+								</div>
 								<span class="image main"><img src="images/pic03.jpg" title="Kombipakke 1" alt="Højtalere og lys"/></span></div>
 							<div>
 								<h3>Kombipakke 2</h3>
