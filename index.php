@@ -70,7 +70,7 @@
 							<p>Vælg en pakke her, eller <a href = "#contact">kontakt</a> mig,
 								hvis du leder efter noget helt specielt til dit næste event.</p>
 							<div>
-								<h3 class="collapsible">Kombipakke 1</h3>
+								<button class="collapsible">Kombipakke 1</button>
 								<div class="collapContent">
                                     <h1>homie</h1>
 								</div>
