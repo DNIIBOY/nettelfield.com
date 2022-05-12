@@ -39,7 +39,6 @@
         } else {
             echo("<p>Broken i guess</p>")
         }
-*/
-}
+}*/
 
 ?>
