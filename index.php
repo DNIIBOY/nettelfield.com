@@ -123,7 +123,7 @@
 									</div>
 									<ul class="actions">
 										<li><button type="submit" name="submit" id="contactSubmit" class="special">Send</button></li>
-										<li><input type="reset" value="Reset" /></li>
+										<li><button type="reset" name="reset" id="contactReset">Reset</button></li>
 									</ul>
 								</form>
 								<h3><?php include "sendmail.php"; ?></h3>
