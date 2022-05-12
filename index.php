@@ -127,7 +127,7 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<p id="mailStatus"><?php include "sendmail.php"; ?></p>
+								<p id="mailStatus" hidden><?php include "sendmail.php"; ?></p>
 								<ul class="icons">
 									<li><a href="https://twitter.com/DNIIBOY" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.facebook.com/DanielNettelfield" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -420,6 +420,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			if(statusField.text == ""){
 				return;
 			}
+			console.log(statusField.text);
 			if(statusField.text == "true"){
 				window.location.replace("https://nettelfield.com/#MailSuccess");
 			}
