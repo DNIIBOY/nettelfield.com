@@ -32,9 +32,9 @@
         //Checking if Mails sent successfully
 
         if ($result1 && $result2) {
-            $success = "Your Message was sent Successfully!";
+            echo("<p>Det funker sku</p>")
         } else {
-            $failed = "Sorry! Message was not sent, Try again Later.";
+            echo("<p>Broken i guess</p>")
         }
 
 }
