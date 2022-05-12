@@ -1,6 +1,7 @@
 <?php
 
     if(isset($_POST['submit'])) {
+        echo($_GET['message']
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
 
         // Hent kundedata
@@ -11,10 +12,8 @@
         $subject2 = "Godkendelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
 
         // Email til mig
-        $message = "Navn: " . $name . "\n\n";
-        . "Besked: " . "\n" . $_POST['message'];
-
-        echo($message)
+        // $message = "Navn: " . $name . "\n\n";
+        // . "Besked: " . "\n" . $_POST['message'];
 
         // Email som kunden modtager
         // $message2 = "Dear" . $name . "\n"
