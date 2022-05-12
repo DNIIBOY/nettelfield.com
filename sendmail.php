@@ -1,7 +1,5 @@
 <?php
-    // mail("daniel@nettelfield", "test 52", "hejsa mester")
-    echo(isset($_POST['submit']))
-    /*if(isset($_POST['submit'])) {
+    if(isset($_POST['submit'])) {
 
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
 
@@ -26,16 +24,18 @@
         $headers = "Fra: " . $fromEmail; // Kunde email, som jeg modtager
         $headers2 = "Til: " . $mailto; // Email til kunden
 
+        echo($name, $fromEmail, $subject, $message)
+
         // PHP mailer function
-        $result1 = mail($mailto, $subject, $message, $headers); // Mail til mig
-        $result2 = mail($fromEmail, $subject2, $message2, $headers2); // Godkendelses mail til kunden
+        // $result1 = mail($mailto, $subject, $message, $headers); // Mail til mig
+        // $result2 = mail($fromEmail, $subject2, $message2, $headers2); // Godkendelses mail til kunden
 
         // Returner on mails blev send ordenligt
-        if ($result1 && $result2) {
-            $status = "Det funker sku"
-        } else {
-            $status = "Broken i guess"
-        }
-}*/
+        // if ($result1 && $result2) {
+        //     $status = "Det funker sku"
+        // } else {
+        //     $status = "Broken i guess"
+        // }
+}
 
 ?>
