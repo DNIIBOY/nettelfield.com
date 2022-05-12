@@ -32,6 +32,7 @@
 							<ul>
 								<li><a href="#portfolio">Portfolio</a></li>
 								<li><a href="#about">Om mig</a></li>
+								<li><a href="#book">Lej mig</a></li>
 								<li><a href="#contact">Kontakt</a></li>
 						    	<!-- <li><a href="#elements">Elementer</a></li> -->
 							</ul>
@@ -43,21 +44,52 @@
 						<!-- Work -->
 							<article id="portfolio">
 								<h3 class="major">Portfolio</h3>
-								<p>Dette er en kort portfolio, som viser lidt af hvad jeg kan. Hvis du leder efter noget der ikke er i denne portfolio, så skal du være meget velkommen til at <a href="#contact">kontakte</a> mig, og så kan vi sikkert finde en løsning!</p>
-								<span class="image main"><img src="images/port2.jpg" title="Marts 2022"/></span>
-								<span class="image main"><img src="images/port6.jpg" title="November 2021"/></span>
-								<span class="image main"><img src="images/port5.jpg" title="November 2021"/></span>
-								<span class="image main"><img src="images/port4.jpg" title="November 2021"/></span>
-								<span class="image main"><img src="images/port3.jpg" title="November 2021"/></span>
-								<span class="image main"><img src="images/port1.jpg" title="December 2019"/></span>
+								<p>Dette er en kort portfolio, som viser lidt af hvad jeg kan. Du kan kigge på lyd- og lyspakker
+									<a href="#book">her</a>, og
+									hvis du leder efter noget der ikke er i denne portfolio,
+									så kan du bare <a href="#contact">kontakte</a> mig,
+									og så finder vi sikkert en løsning!</p>
+								<span class="image main"><img src="images/port2.jpg" title="Marts 2022" alt="Lyd, lys og vild fest!"/></span>
+								<span class="image main"><img src="images/port6.jpg" title="November 2021" alt="Lyd, lys og vild fest!"/></span>
+								<span class="image main"><img src="images/port5.jpg" title="November 2021" alt="Lyd, lys og vild fest!"/></span>
+								<span class="image main"><img src="images/port4.jpg" title="November 2021" alt="Lyd, lys og vild fest!"/></span>
+								<span class="image main"><img src="images/port3.jpg" title="November 2021" alt="Lyd, lys og vild fest!"/></span>
+								<span class="image main"><img src="images/port1.jpg" title="December 2019" alt="Lyd, lys og vild fest!"/></span>
 							</article>
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">Om mig</h2>
-								<span class="image main"><img src="images/port7.jpg" alt="" /></span>
+								<span class="image main"><img src="images/port7.jpg" alt="Grønt lys, flot mand" /></span>
 								<p>Jeg er en entusiastisk DJ, på 18 år, der har haft musik som interrese siden jeg var helt lille. Jeg har spillet som DJ i 4 år nu, og forstår hvad der skal til for at sætte en ordenlig fest i gang</p>
 							</article>
+
+						<!-- About -->
+						<article id="book">
+							<h2 class="major">Udlejning</h2>
+							<p>Vælg en pakke her, eller <a href = "#contact">kontakt</a> mig,
+								hvis du leder efter noget helt specielt til dit næste event.</p>
+							<div>
+								<h3>Kombipakke 1</h3>
+								<span class="image main"><img src="images/pic03.jpg" title="December 2019"/></span>
+							</div>
+							<div>
+								<h3>Kombipakke 2</h3>
+								<span class="image main"><img src="images/pic03.jpg" title="December 2019"/></span>
+							</div>
+							<div>
+								<h3>Lydpakke</h3>
+								<span class="image main"><img src="images/pic03.jpg" title="December 2019"/></span>
+							</div>
+							<div>
+								<h3>Lyspakke 1</h3>
+								<span class="image main"><img src="images/pic03.jpg" title="December 2019"/></span>
+							</div>
+							<div>
+								<h3>Lyspakke 2</h3>
+								<span class="image main"><img src="images/pic03.jpg" title="December 2019"/></span>
+							</div>
+						</article>
 
 						<!-- Kontakt -->
 							<article id="contact">
@@ -73,8 +105,21 @@
 										<input type="text" name="email" id="email" />
 									</div>
 									<div class="field">
+										<label for="package">Lyd- og Lyspakke</label>
+										<select name="package" id="package">
+											<option value="">Andet</option>
+											<option value="S1">Lydpakke 1</option>
+											<option value="S2">Lydpakke 2</option>
+											<option value="L1">Lyspakke 1</option>
+											<option value="L2">Lyspakke 2</option>
+											<option value="C1">Kombipakke 1</option>
+											<option value="C2">Kombipakke 2</option>
+										</select>
+									</div>
+									<div class="field">
 										<label for="message">Besked</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="4">Denne formular virker ikke endnu, kontakt mig venligst på mail.
+										</textarea>
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Send besked" class="special"  /></li> 
@@ -335,7 +380,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<!--<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> !-->
+						<p class="copyright">&copy; Daniel Nettelfield. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
