@@ -131,6 +131,7 @@
 									if(isset($_POST['submit'])) {
 										echo($_POST['message'];
 										$mailto = "daniel@nettelfield.com";  // Min mail addresse 
+									}
 								?>
 								<ul class="icons">
 									<li><a href="https://twitter.com/DNIIBOY" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
