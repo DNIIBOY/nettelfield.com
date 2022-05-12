@@ -1,5 +1,7 @@
 <?php
-    if(isset($_POST['submit'])) {
+    echo($_POST)
+    /*if(isset($_POST['submit'])) {
+
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
 
         // Hent kundedata
@@ -33,6 +35,6 @@
         } else {
             $status = "Broken i guess"
         }
-}
+}*/
 
 ?>
