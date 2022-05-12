@@ -1,6 +1,6 @@
 <?php
-    mail("daniel@nettelfield", "test 52", "hejsa mester")
-    echo($_POST)
+    // mail("daniel@nettelfield", "test 52", "hejsa mester")
+    echo(isset($_POST['submit']))
     /*if(isset($_POST['submit'])) {
 
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
