@@ -97,11 +97,11 @@
 								<form method="post" name="contactform" id="contactform" action="">
 									<div class="field half first">
 										<label for="name">Navn</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required/>
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="email" name="email" id="email" required/>
 									</div>
 									<div class="field">
 										<label for="package">Lyd- og Lyspakke</label>
@@ -119,7 +119,7 @@
 									</div>
 									<div class="field">
 										<label for="message">Besked</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="4" required></textarea>
 									</div>
 									<ul class="actions">
 										<button type="submit" name="submit" id="contact-submit" class="special">Send</button>
