@@ -11,12 +11,12 @@
         $message = $_POST["message"];
 
         $fullMessage = "Navn: " . $name . "\n"  // Lav hele beskeden der sendes til mig
+        . "Mail: " . $mailFrom
         . "Valgt pakke: " . $package . "\n\n" 
         . "Besked: " . "\n" . $message;
-        echo($fullMessage);
 
         // Lav emner
-        $subject1 = "Business mail";
+        $subject1 = $name . " vil booke " . $package;
 
         // Lav email headers
         $header1 = "Fra: " . $mailFrom;  // Kundens mailaddresse til mig

@@ -107,13 +107,13 @@
 										<label for="package">Lyd- og Lyspakke</label>
 										<div class="select-wrapper">
 											<select name="package" id="package">
-												<option value="Other">Andet</option>
-												<option value="S1">Lydpakke 1</option>
-												<option value="S2">Lydpakke 2</option>
-												<option value="L1">Lyspakke 1</option>
-												<option value="L2">Lyspakke 2</option>
-												<option value="C1">Kombipakke 1</option>
-												<option value="C2">Kombipakke 2</option>
+												<option value="Andet">Andet</option>
+												<option value="Lydpakke 1">Lydpakke 1</option>
+												<option value="Lydpakke 2">Lydpakke 2</option>
+												<option value="Lyspakke 1">Lyspakke 1</option>
+												<option value="Lyspakke 2">Lyspakke 2</option>
+												<option value="Kombipakke 1">Kombipakke 1</option>
+												<option value="Kombipakke 2">Kombipakke 2</option>
 											</select>
 										</div>
 									</div>
@@ -122,7 +122,7 @@
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 									<ul class="actions">
-										<button type="submit" name="submit" id="contact-submit" data-submit="...Sending">Submit Now</button>
+										<button type="submit" name="submit" id="contact-submit" class="special">Send</button>
 										<!-- <li><input type="submit" value="Send besked" class="special"></li>  -->
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
