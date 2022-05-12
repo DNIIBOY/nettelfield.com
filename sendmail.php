@@ -8,12 +8,12 @@
         $fromEmail = $_POST["email"]; // Hent kundens email
         $subject = $_POST["package"]; // Hent hvilken pakke de vil have
 
-        $subject2 = "Godkendelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
+        $subject2 = "Bekræftelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
 
         // Email til mig
-        $message = "Navn: " . $name . "\n\n";
-        . "Besked: " . "\n" . $_POST["message"];
-        echo($message);
+        // $message = "Navn: " . $name . "\n\n";
+        // . "Besked: " . "\n" . $_POST["message"];
+        // echo($message);
 
         // Email som kunden modtager
         // $message2 = "Dear" . $name . "\n"
