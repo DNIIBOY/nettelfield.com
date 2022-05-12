@@ -24,10 +24,12 @@
         $result1 = mail($mailTo, $subject1, $fullMessage, $header1);
 
         if($result1){
-            echo("nånånå, det virker sku");
+            header("Location: https://nettelfield.com/#MailSuccess");
+            die();
         }
         else{
-            echo("sadge");
+            header("Location: https://nettelfield.com/#MailFail");
+            die();
         }
     }
 

@@ -136,6 +136,22 @@
 								</ul>
 							</article>
 
+						<!-- Email success -->
+							<article id="MailSuccess">
+								<h2 class="major">Kontakt</h2>
+								<p>Du kan enten kontakte mig i nedenstående formular eller på mail: <a href="mailto:daniel@nettelfield.com">daniel@nettelfield.com</a></p>
+								<h3>Din mail blev sendt, og du modtager en bekræftelse i din indbakke.</h3>
+								<span class="image main"><img src="images/pic0.jpg" alt="Grønt flueben" /></span>
+							</article>
+
+						<!-- Email failed -->
+							<article id="MailFail">
+								<h2 class="major">Kontakt</h2>
+								<p>Du kan enten kontakte mig i nedenstående formular eller på mail: <a href="mailto:daniel@nettelfield.com">daniel@nettelfield.com</a></p>
+								<h3>Din mail blev desværre ikke sendt. Prøv igen ellers send mig en mail på <a href="mailto:daniel@nettelfield.com">daniel@nettelfield.com</a></h3>
+								<span class="image main"><img src="images/pic0.jpg" alt="Rødt kryds" /></span>
+							</article>
+
 						<!-- Elements -->
 							<article id="elements">
 								<h2 class="major">Elements</h2>
