@@ -1,6 +1,7 @@
 <?php
 
     mail("daniel@nettelfield.com", "test part 51", $_POST["message"], "header dims i guess")
+    echo("<p style="color: black">Hello</p>")
 /*
     if(isset($_POST['submit'])) {
 
