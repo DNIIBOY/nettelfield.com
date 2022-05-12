@@ -6,14 +6,29 @@
 
         // Hent kundedata
         $name = $_POST["name"];
-        $fromEmail = $_POST["email"];
-        $subject = $_POST["package"];
+        $mailFrom = $_POST["email"];
+        $package = $_POST["package"];
         $message = $_POST["message"];
 
-        $fullMessage = "Navn: " . $name . "\n"
-        . "Bruger email: " . $fromEmail . "\n"
-        . "\n\n" . "Besked: " . "\n" . $message;
+        $fullMessage = "Navn: " . $name . "\n"  // Lav hele beskeden der sendes til mig
+        . "Valgt pakke: " . $package . "\n\n" 
+        . "Besked: " . "\n" . $message;
         echo($fullMessage);
+
+        // Lav emner
+        $subject1 = "Business mail";
+
+        // Lav email headers
+        $header1 = "Fra: " . $mailFrom;  // Kundens mailaddresse til mig
+
+        $result1 = mail($mailTo, $subject1, $fullMessage, $header1);
+
+        if($result1){
+            echo("nånånå, det virker sku");
+        }
+        else{
+            echo("sadge");
+        }
     }
 
 ?>
