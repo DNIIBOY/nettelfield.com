@@ -1,31 +1,31 @@
 <?php
 
     if(isset($_POST['submit'])) {
-
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
 
         // Hent kundedata
         $name = $_POST['name']; // Hent kundens navn
         $fromEmail = $_POST['email']; // Hent kundens email
         $subject = $_POST['package']; // Hent hvilken pakke de vil have
+        echo($fromEmail);
 
-        $subject2 = "Godkendelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
+        // $subject2 = "Godkendelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
 
         // Email til mig
-        $message = "Navn: " . $name . "\n\n";
-        . "Besked: " . "\n" . $_POST['message'];
+        // $message = "Navn: " . $name . "\n\n";
+        // . "Besked: " . "\n" . $_POST['message'];
 
         // Email som kunden modtager
-        $message2 = "Dear" . $name . "\n"
-        . "Tak for at kontakte mig! Jeg vil give dig en respons hurtigts muligt." . "\n\n"
-        . "Din besked er følgende:" . "\n" . $_POST['message'] . "\n\n"
-        . "Med venlig hilsen," . "\n" . "Daniel Nettelfield";
+        // $message2 = "Dear" . $name . "\n"
+        // . "Tak for at kontakte mig! Jeg vil give dig en respons hurtigts muligt." . "\n\n"
+        // . "Din besked er følgende:" . "\n" . $_POST['message'] . "\n\n"
+        // . "Med venlig hilsen," . "\n" . "Daniel Nettelfield";
 
         // Email headers
-        $headers = "Fra: " . $fromEmail; // Kunde email, som jeg modtager
-        $headers2 = "Til: " . $mailto; // Email til kunden
+        // $headers = "Fra: " . $fromEmail; // Kunde email, som jeg modtager
+        // $headers2 = "Til: " . $mailto; // Email til kunden
 
-        echo($name, $fromEmail, $subject, $message);
+        // echo($name, $fromEmail, $subject, $message);
 
         // PHP mailer function
         // $result1 = mail($mailto, $subject, $message, $headers); // Mail til mig
