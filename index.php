@@ -71,7 +71,7 @@
 								hvis du leder efter noget helt specielt til dit næste event.</p>
 							<div>
 								<h3 class="collapsible">Kombipakke 1</h3>
-								<div class="content">
+								<div class="collapContent">
                                     <h1>homie</h1>
 								</div>
 								<span class="image main"><img src="images/pic03.jpg" title="Kombipakke 1" alt="Højtalere og lys"/></span></div>
