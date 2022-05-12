@@ -15,15 +15,24 @@
         . "Valgt pakke: " . $package . "\n\n" 
         . "Besked: " . "\n" . $message;
 
-        // Lav emner
+        $confirmMessage = "Hej " . $name  // Lav bekræfelsesbesked
+        . "\nTak for din besked, jeg ser frem til at arbejde med dig.\n Din besked er som følger:\n"
+        . $message . "\nMed venlig hilsen Daniel Nettelfield\nDenne mail kan ikke besvares, hvis du ønsker at kontakte mig,
+        kan du gøre det på " . $mailTo;
+
+        // Lav mail emner
         $subject1 = $name . " vil booke " . $package;
+        $subject2 = "Bekræftelse: Din besked er modtaget | Daniel Nettelfield";
 
         // Lav email headers
         $header1 = "Fra: " . $mailFrom;  // Kundens mailaddresse til mig
 
+        // Send emails
         $result1 = mail($mailTo, $subject1, $fullMessage, $header1);
+        $result2 = mail($mailFrom, $subject2, $confirmMessage);
 
-        if($result1){
+        // Check om mailsne blev sendt
+        if($result1 && $result2){
             echo("Success");
         }
         else{
