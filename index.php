@@ -127,7 +127,7 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<?php include "sendmail.php"; ?>
+								<p id="mailStatus"><?php include "sendmail.php"; ?></p>
 								<ul class="icons">
 									<li><a href="https://twitter.com/DNIIBOY" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.facebook.com/DanielNettelfield" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -414,16 +414,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="https://smtpjs.com/v3/smtp.js"></script>
 	</body>
 	<script>
-		function sendEmail(){
-			Email.send({
-				Host : "mail.nettelfield.com",
-				Username : "daniel@nettelfield.com",
-				Password : "REDACTED",
-				To : "daniel@nettelfield.com",
-				From : "test@test.com",
-				Subject : "This is the subject",
-				Body : "And this is the body"
-			}).then(message => alert(message));
+		var statusField = document.getElementById("mailStatus");
+
+		function mailRedirect(){
+			if(statusField.text == ""){
+				return;
+			}
+			if(statusField.text == "true"){
+				window.location.replace("https://nettelfield.com/#MailSuccess");
+			}
+			else{
+				window.location.replace("https://nettelfield.com/#MailFail");
+			}
 		}
+
+		statusField.addEventListener("click", mailRedirect);
 	</script>
 </html>
