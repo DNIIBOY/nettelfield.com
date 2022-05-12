@@ -1,41 +1,43 @@
 <?php
-    if(isset($_POST['submit'])) {
+mail("daniel@nettelfield.com", "Test part 41", "hejsa altså", "header dims i guess")
 
-        $mailto = "daniel@nettelfield.com";  // Min mail addresse
+<!--     if(isset($_POST['submit'])) { -->
 
-        // Hent kundedata
-        $name = $_POST['name']; // Hent kundens navn
-        $fromEmail = $_POST['email']; // Hent kundens email
-        $subject = $_POST['package']; // Hent hvilken pakke de vil have
+<!--         $mailto = "daniel@nettelfield.com";  // Min mail addresse -->
 
-        $subject2 = "Godkendelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
+<!--         // Hent kundedata -->
+<!--         $name = $_POST['name']; // Hent kundens navn -->
+<!--         $fromEmail = $_POST['email']; // Hent kundens email -->
+<!--         $subject = $_POST['package']; // Hent hvilken pakke de vil have -->
 
-        // Email til mig
-        $message = "Navn: " . $name . "\n\n"
-        . "Besked: " . "\n" . $_POST['message'];
+<!--         $subject2 = "Godkendelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden -->
 
-        // Email som kunden modtager
-        $message2 = "Dear" . $name . "\n"
-        . "Tak for at kontakte mig! Jeg vil give dig en respons hurtigts muligt." . "\n\n"
-        . "Din besked er følgende:" . "\n" . $_POST['message'] . "\n\n"
-        . "Med venlig hilsen," . "\n" . "Daniel Nettelfield";
+<!--         // Email til mig -->
+<!--         $message = "Navn: " . $name . "\n\n" -->
+<!--         . "Besked: " . "\n" . $_POST['message']; -->
 
-        // Email headers
-        $headers = "Fra: " . $fromEmail; // Kunde email, som jeg modtager
-        $headers2 = "Til: " . $mailto; // Email til kunden
+<!--         // Email som kunden modtager -->
+<!--         $message2 = "Dear" . $name . "\n" -->
+<!--         . "Tak for at kontakte mig! Jeg vil give dig en respons hurtigts muligt." . "\n\n" -->
+<!--         . "Din besked er følgende:" . "\n" . $_POST['message'] . "\n\n" -->
+<!--         . "Med venlig hilsen," . "\n" . "Daniel Nettelfield"; -->
 
-        //PHP mailer function
+<!--         // Email headers -->
+<!--         $headers = "Fra: " . $fromEmail; // Kunde email, som jeg modtager -->
+<!--         $headers2 = "Til: " . $mailto; // Email til kunden -->
 
-        $result1 = mail($mailto, $subject, $message, $headers); // This email sent to My address
-        $result2 = mail($fromEmail, $subject2, $message2, $headers2); //This confirmation email to client
+<!--         //PHP mailer function -->
 
-        //Checking if Mails sent successfully
+<!--         $result1 = mail($mailto, $subject, $message, $headers); // This email sent to My address -->
+<!--         $result2 = mail($fromEmail, $subject2, $message2, $headers2); //This confirmation email to client -->
 
-        if ($result1 && $result2) {
-            echo("<p>Det funker sku</p>")
-        } else {
-            echo("<p>Broken i guess</p>")
-        }
+<!--         //Checking if Mails sent successfully -->
+
+<!--         if ($result1 && $result2) { -->
+<!--             echo("<p>Det funker sku</p>") -->
+<!--         } else { -->
+<!--             echo("<p>Broken i guess</p>") -->
+<!--         } -->
 
 }
 
