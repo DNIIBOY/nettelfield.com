@@ -1,6 +1,4 @@
 <?php
-    mail("daniel@nettelfield.com", "test part 51", $_POST["message"] . "\nFrom: " . $_POST["email"], "header dims i guess")
-/*
     if(isset($_POST['submit'])) {
 
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
@@ -38,6 +36,6 @@
         } else {
             echo("<p>Broken i guess</p>")
         }
-}*/
+}
 
 ?>
