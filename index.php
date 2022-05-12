@@ -127,7 +127,6 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<!-- <?php include "sendmail.php"?> -->
 								<?php echo($_POST["message"]) ?>
 								<ul class="icons">
 									<li><a href="https://twitter.com/DNIIBOY" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
