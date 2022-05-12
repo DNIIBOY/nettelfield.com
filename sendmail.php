@@ -11,7 +11,7 @@
         $message = $_POST["message"];
 
         $fullMessage = "Navn: " . $name . "\n"  // Lav hele beskeden der sendes til mig
-        . "Mail: " . $mailFrom
+        . "Mail: " . $mailFrom . "\n"
         . "Valgt pakke: " . $package . "\n\n" 
         . "Besked: " . "\n" . $message;
 
