@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Daniel Nettelfields hjemmeside
 -->
@@ -20,7 +20,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<img src="images/logo.ico" style="width:85px; height:auto;">
+							<img src="images/logo.ico" style="width:5.25rem; height:auto;">
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -104,7 +104,7 @@
 										<input type="text" name="email" id="email" />
 									</div>
 									<div class="field">
-										<label for="package">Category</label>
+										<label for="package">Lyd- og Lyspakke</label>
 										<div class="select-wrapper">
 											<select name="package" id="package">
 												<option value="Other">Andet</option>
