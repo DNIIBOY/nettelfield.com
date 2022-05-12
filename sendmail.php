@@ -1,22 +1,19 @@
 <?php
-    if(isset($_POST["submit"])){
-        echo($_POST["message"]);
-        mail("daniel@nettelfield.com", "okay mester", "plz bare virk mand");
-    }/*
-    if(isset($_POST['submit'])) {
-        echo($_POST['message'];
+    if(isset($_POST["submit"])) {
+        echo($_POST["message"];
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
 
         // Hent kundedata
-        $name = $_POST['name']; // Hent kundens navn
-        $fromEmail = $_POST['email']; // Hent kundens email
-        $subject = $_POST['package']; // Hent hvilken pakke de vil have
+        $name = $_POST["name"]; // Hent kundens navn
+        $fromEmail = $_POST["email"]; // Hent kundens email
+        $subject = $_POST["package"]; // Hent hvilken pakke de vil have
 
         $subject2 = "Godkendelse: Din besked er modtaget | Daniel Nettelfield"; // Godkendelse til kunden
 
         // Email til mig
-        // $message = "Navn: " . $name . "\n\n";
-        // . "Besked: " . "\n" . $_POST['message'];
+        $message = "Navn: " . $name . "\n\n";
+        . "Besked: " . "\n" . $_POST["message"];
+        echo($message);
 
         // Email som kunden modtager
         // $message2 = "Dear" . $name . "\n"
@@ -40,6 +37,5 @@
         // } else {
         //     $status = "Broken i guess"
         // }
-    }*/
-
+    }
 ?>
