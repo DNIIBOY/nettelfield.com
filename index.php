@@ -122,12 +122,11 @@
 										<textarea name="message" id="message" rows="4" required></textarea>
 									</div>
 									<ul class="actions">
-										<li><button type="submit" name="submit" id="contact-submit" class="special">Send</button></li>
-										<!-- <li><input type="submit" value="Send besked" class="special"></li>  -->
+										<li><button type="submit" name="submit" id="contactSubmit" class="special">Send</button></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<p id="mailStatus"><?php include "sendmail.php"; ?></p>
+								<h3><?php include "sendmail.php"; ?></h3>
 								<ul class="icons">
 									<li><a href="https://twitter.com/DNIIBOY" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.facebook.com/DanielNettelfield" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -413,22 +412,4 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 			<script src="https://smtpjs.com/v3/smtp.js"></script>
 	</body>
-	<script>
-		var statusField = document.getElementById("mailStatus");
-
-		function mailRedirect(){
-			if(statusField.innerText == ""){
-				return;
-			}
-			console.log(statusField.innerText);
-			if(statusField.innerText == "true"){
-				window.location.replace("https://nettelfield.com/#MailSuccess");
-			}
-			else{
-				window.location.replace("https://nettelfield.com/#MailFail");
-			}
-		}
-
-		document.getElementById("contact-submit").addEventListener("click", mailRedirect);
-	</script>
 </html>

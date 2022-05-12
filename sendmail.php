@@ -24,10 +24,10 @@
         $result1 = mail($mailTo, $subject1, $fullMessage, $header1);
 
         if($result1){
-            echo("true");
+            echo("Success");
         }
         else{
-            echo("false");
+            echo("Fail");
         }
     }
 
