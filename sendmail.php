@@ -1,7 +1,5 @@
 <?php
-
-    mail("daniel@nettelfield.com", "test part 51", $_POST["message"], "header dims i guess")
-    echo("<p style="color: black">Hello</p>")
+    mail("daniel@nettelfield.com", "test part 51", $_POST["message"] . "\nFrom: " . $_POST["email"], "header dims i guess")
 /*
     if(isset($_POST['submit'])) {
 
