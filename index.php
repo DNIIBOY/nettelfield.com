@@ -70,10 +70,12 @@
 							<p>Vælg en pakke her, eller <a href = "#contact">kontakt</a> mig,
 								hvis du leder efter noget helt specielt til dit næste event.</p>
 							<div>
-								<button class="collapsible">Kombipakke 1</button>
-								<div class="content">
-                                    <h1>homie</h1>
-								</div>
+							    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+                                <div id="demo" class="collapse">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
 								<span class="image main"><img src="images/pic03.jpg" title="Kombipakke 1" alt="Højtalere og lys"/></span></div>
 							<div>
 								<h3>Kombipakke 2</h3>
@@ -413,6 +415,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="https://smtpjs.com/v3/smtp.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</body>
 </html>
