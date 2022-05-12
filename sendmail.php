@@ -25,9 +25,11 @@
 
         if($result1){
             header("Location: https://nettelfield.com/#MailSuccess", true, 301);
+            exit;
         }
         else{
             header("Location: https://nettelfield.com/#MailFail", true, 301);
+            exit;
         }
     }
 
