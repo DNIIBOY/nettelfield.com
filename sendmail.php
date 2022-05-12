@@ -25,11 +25,9 @@
 
         if($result1){
             header("Location: https://nettelfield.com/#MailSuccess");
-            die();
         }
         else{
             header("Location: https://nettelfield.com/#MailFail");
-            die();
         }
     }
 
