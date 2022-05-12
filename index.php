@@ -94,7 +94,7 @@
 							<article id="contact">
 								<h2 class="major">Kontakt</h2>
 								<p>Du kan enten kontakte mig i nedenstående formular eller på mail: <a href="mailto:daniel@nettelfield.com">daniel@nettelfield.com</a></p>
-								<form name="contactform" id="contactform" action="">
+								<form method="post" name="contactform" id="contactform" action="">
 									<div class="field half first">
 										<label for="name">Navn</label>
 										<input type="text" name="name" id="name" />
