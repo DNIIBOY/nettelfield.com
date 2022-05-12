@@ -1,5 +1,8 @@
 <?php
-
+    if(isset($_POST["submit"])){
+        echo($_POST["message"]);
+        mail("daniel@nettelfield.com", "okay mester", "plz bare virk mand");
+    }/*
     if(isset($_POST['submit'])) {
         echo($_POST['message'];
         $mailto = "daniel@nettelfield.com";  // Min mail addresse
@@ -37,6 +40,6 @@
         // } else {
         //     $status = "Broken i guess"
         // }
-}
+    }*/
 
 ?>
