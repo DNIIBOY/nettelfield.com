@@ -24,10 +24,10 @@
         $result1 = mail($mailTo, $subject1, $fullMessage, $header1);
 
         if($result1){
-            header("Location: https://nettelfield.com/#MailSuccess");
+            header("Location: https://nettelfield.com/#MailSuccess", true, 301);
         }
         else{
-            header("Location: https://nettelfield.com/#MailFail");
+            header("Location: https://nettelfield.com/#MailFail", true, 301);
         }
     }
 
