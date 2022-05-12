@@ -122,7 +122,8 @@
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send besked" class="special"  /></li> 
+										<button type="submit" name="submit" id="contact-submit" data-submit="...Sending">Submit Now</button>
+										<!-- <li><input type="submit" value="Send besked" class="special"></li>  -->
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
