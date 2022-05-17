@@ -59,7 +59,10 @@
 							<article id="about">
 								<h2 class="major">Om mig</h2>
 								<span class="image main"><img src="images/port7.jpg" alt="Grønt lys, flot mand" /></span>
-								<p>Jeg er en entusiastisk DJ på 18 år, som har haft musik som interrese siden jeg var helt lille. Jeg har spillet som DJ i 4 år nu, og forstår hvad der skal til for at sætte en ordenlig fest i gang</p>
+								<p>Jeg er en 18årig DJ, og har spillet som DJ i mere end 4 år. Jeg er selv ung, og har derfor massere af forståelse
+								for hvad der skal til for at holde en ordenlig ungdomsfest. Jeg er meget teknisk orienteret, og går derfor efter
+								at have det vildeste udstyr, så du kan holde den vildeste fest. Ønsker du at høre mere, er du meget velkommen til at
+								<a href="#contact">kontakte</a> mig.</p>
 							</article>
 
 						<!-- Booking -->
