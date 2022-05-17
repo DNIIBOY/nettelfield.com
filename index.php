@@ -109,12 +109,12 @@
 										<div class="select-wrapper">
 											<select name="package" id="package">
 												<option value="Andet">Andet</option>
+												<option value="Kombipakke 1">Kombipakke 1</option>
+												<option value="Kombipakke 2">Kombipakke 2</option>
 												<option value="Lydpakke 1">Lydpakke 1</option>
 												<option value="Lydpakke 2">Lydpakke 2</option>
 												<option value="Lyspakke 1">Lyspakke 1</option>
 												<option value="Lyspakke 2">Lyspakke 2</option>
-												<option value="Kombipakke 1">Kombipakke 1</option>
-												<option value="Kombipakke 2">Kombipakke 2</option>
 											</select>
 										</div>
 									</div>
