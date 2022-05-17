@@ -7,6 +7,9 @@
 		<title>Daniel Nettelfield</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="author" content="Daniel Nettelfield">
+		<meta name="geo.placename" content="Ry, Midtjylland, Danmark">
+		<meta name="keywords" content="DJ, musik, Lys, Lyd, Lyd og Lys, Ungdoms DJ, Ungdomsfest, DJ i Ry, DJ i Jylland, Ung DJ, DJ Daniel">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/x-icon" href="images/logo.ico">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
