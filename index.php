@@ -95,6 +95,7 @@
 							<article id="contact">
 								<h2 class="major">Kontakt</h2>
 								<p>Du kan enten kontakte mig i nedenstående formular eller på mail: <a href="mailto:daniel@nettelfield.com">daniel@nettelfield.com</a></p>
+								<h3><?php include "sendmail.php"; ?></h3>
 								<form method="post" name="contactform" id="contactform" action="">
 									<div class="field half first">
 										<label for="name">Navn</label>
@@ -127,7 +128,6 @@
 										<li><button type="reset" name="reset" id="contactReset">Reset</button></li>
 									</ul>
 								</form>
-								<h3><?php include "sendmail.php"; ?></h3>
 								<ul class="icons">
 									<li><a href="https://twitter.com/DNIIBOY" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.facebook.com/DanielNettelfield" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
