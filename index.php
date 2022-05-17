@@ -4,7 +4,7 @@
 -->
 <html>
 	<head>
-		<title>DJ Daniel</title>
+		<title>Daniel Nettelfield</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -32,7 +32,7 @@
 							<ul>
 								<li><a href="#portfolio">Portfolio</a></li>
 								<li><a href="#about">Om mig</a></li>
-								<li><a href="#book">Lej mig</a></li>
+								<li><a href="#book">Udlejning</a></li>
 								<li><a href="#contact">Kontakt</a></li>
 							</ul>
 						</nav>
