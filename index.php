@@ -9,7 +9,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/x-icon" href="images/logo.ico">
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body>
@@ -40,7 +39,7 @@
 
 				<!-- Main -->
 					<div id="main">
-						<!-- Work -->
+						<!-- Portfolio -->
 							<article id="portfolio">
 								<h3 class="major">Portfolio</h3>
 								<p>Dette er en kort portfolio, som viser lidt af hvad jeg kan. Du kan kigge på lyd- og lyspakker
@@ -63,7 +62,7 @@
 								<p>Jeg er en entusiastisk DJ på 18 år, som har haft musik som interrese siden jeg var helt lille. Jeg har spillet som DJ i 4 år nu, og forstår hvad der skal til for at sætte en ordenlig fest i gang</p>
 							</article>
 
-						<!-- About -->
+						<!-- Booking -->
 						<article id="book">
 							<h2 class="major">Udlejning</h2>
 							<p>Vælg en pakke her, eller <a href = "#contact">kontakt</a> mig,
