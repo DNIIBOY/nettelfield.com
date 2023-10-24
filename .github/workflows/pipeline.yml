@@ -1,18 +1,9 @@
-name: autopull on cpanel
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
 jobs:
-  env:
-      api_key: ${{ secrets.CPANEL_API_KEY }}
   deployment:
     runs-on: ubuntu-latest
     steps:
-      - uses: fjogeleit/http-request-action@v1
-        with:
-          url: 'https://cp05.azehosting.net:2083/$api_key/execute/VersionControl/update?repository_root=/home/nettelfi/public_html&branch=main'
-          method: 'GET'
+    - name: cPanel autopull
+      uses: fjogeleit/http-request-action@v1
+      with:
+        url: 'https://cp05.azehosting.net:2083/$api_key/execute/VersionControl/update?repository_root=/home/nettelfi/public_html&branch=main'
+        method: 'GET'
