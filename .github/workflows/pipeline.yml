@@ -10,6 +10,6 @@ jobs:
         api_key: ${{ secrets.CPANEL_API_KEY }}
       uses: fjogeleit/http-request-action@v1.16.5
       with:
-        url: 'https://cp01.azehosting.net:2083/$api_key/execute/VersionControl/update'
+        url: 'https://cp01.azehosting.net:2083/${{ secrets.api_key }}/execute/VersionControl/update'
         method: 'POST'
         data: '{"repository_root": "/home/nettelfi/public_html", "branch": "main"}'
