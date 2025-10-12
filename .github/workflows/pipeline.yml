@@ -8,7 +8,8 @@ jobs:
     - name: cPanel autopull
       env:
         api_key: ${{ secrets.CPANEL_API_KEY }}
-      uses: fjogeleit/http-request-action@v1.14.1
+      uses: fjogeleit/http-request-action@v1.16.5
       with:
-        url: 'https://cp05.azehosting.net:2083/$api_key/execute/VersionControl/update?repository_root=/home/nettelfi/public_html&branch=main'
-        method: 'GET'
+        url: 'https://cp01.azehosting.net:2083/$api_key/execute/VersionControl/update'
+        method: 'POST'
+        data: '{"repository_root": "/home/nettelfi/public_html", "branch": "main"}'
